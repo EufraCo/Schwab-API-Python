@@ -10,7 +10,7 @@ def construct_init_auth_url() -> tuple[str, str, str]:
     app_key = "QC20FzSXzMvlzGH7CIdtpu2YeA4XcJtF"
     app_secret = "yGAFRS1fm0wwR11n"
 
-    auth_url = f"https://api.schwabapi.com/v1/oauth/authorize?client_id={app_key}&redirect_uri=https://127.0.0.1"
+    auth_url = f"https://api.schwabapi.com/v1/oauth/authorize?client_id={app_key}&redirect_uri=https://eufra.shacknet.biz"
 
     logger.info("Click to authenticate:")
     logger.info(auth_url)
